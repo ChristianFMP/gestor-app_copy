@@ -28,7 +28,7 @@ export default function Login() {
         } catch (e) { console.log(e) }
     }
     const fetchApi = async () => {
-        const response = await fetch('https://testunsaac.herokuapp.com/api/docentes')
+        const response = await fetch('https://christian-be.onrender.com/api/docentes')
         // console.log(response.statusText)
         const responseJSON = await response.json()
         setDocentes(responseJSON.docentes)
@@ -41,7 +41,7 @@ export default function Login() {
 
     let navigate = useNavigate()
     let api = axios()
-    let url = 'https://testunsaac.herokuapp.com/api/login'
+    let url = 'https://christian-be.onrender.com/api/login'
 
 
     const devolverDominio = (event) => {

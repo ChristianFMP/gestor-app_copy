@@ -55,7 +55,7 @@ const Modalv2 = ({ show, setShow, title, children, guardar = null, buttons = tru
 
 export default function Docentes() {
 
-   const url = 'https://testunsaac.herokuapp.com/api/docentes/'
+   const url = 'https://christian-be.onrender.com/api/docentes/'
 
    const [docentes, setdocentes] = useState()
    const [consolaSeleccionada, setConsolaSeleccionada] = useState({})

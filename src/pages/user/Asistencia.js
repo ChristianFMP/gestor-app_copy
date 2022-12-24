@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 
 import { ListaAlumnos } from '../../components/ListaAlumnos';
 
-const url = 'https://testunsaac.herokuapp.com/api/matriculas/'
+const url = 'https://christian-be.onrender.com/api/matriculas/'
 
 export function Asistencia({ contenido, matricula, idDocente, nombreCurso, setShow }) {
   const idMatricula = matricula._id

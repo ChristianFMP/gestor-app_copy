@@ -3,7 +3,7 @@ import { ButtonGroup, ToggleButton } from "react-bootstrap"
 
 export default function MatrizAsistenciaAlumnos() {
   const [nroCurso, setNroCurso] = useState(0)
-  const url = 'https://testunsaac.herokuapp.com/api/matriculas/'
+  const url = 'https://christian-be.onrender.com/api/matriculas/'
   const [matriculas, setMatriculas] = useState([])
   const [porcentajePorFecha, setPorcentajePorFecha] = useState([])
   const [fechas, setFechas] = useState([])

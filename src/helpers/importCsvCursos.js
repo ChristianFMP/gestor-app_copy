@@ -1,7 +1,7 @@
 import {helpHttp} from './helpHttp';
 
 let api = helpHttp();
-const url = 'https://testunsaac.herokuapp.com/api/cursos/'
+const url = 'https://christian-be.onrender.com/api/cursos/'
 
 export default async function importarCursos(data){
   if(!data){ alert("Inserte CSV por favor"); return; }

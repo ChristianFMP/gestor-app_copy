@@ -8,7 +8,7 @@ import { HistorialAsistencia } from './HistorialAsistencia'
 import {EstadisticasAlumnos} from '../../components/EstadisticasAlumnos';
 import MiniHorario from '../../components/MiniHorario'
 
-const url = 'https://testunsaac.herokuapp.com/api'
+const url = 'https://christian-be.onrender.com/api'
 
 export default function Curso() {
 

@@ -148,7 +148,7 @@ const Horario = ({ horario, setHorario }) => {
 
 export default function Cursos() {
 
-  const url = 'https://testunsaac.herokuapp.com/api/cursos/'
+  const url = 'https://christian-be.onrender.com/api/cursos/'
 
   const [cursos, setcursos] = useState()
   const [selectedCourse, setSelectedCouse] = useState({})

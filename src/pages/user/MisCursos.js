@@ -38,7 +38,7 @@ const CardCourse = ({ idMatricula, codigo, nombre, porcentajeAvance }) => {
 }
 
 export default function MisCursos() {
-  const url = 'https://testunsaac.herokuapp.com/api/matriculas/'
+  const url = 'https://christian-be.onrender.com/api/matriculas/'
   const [myCourses, setMyCourses] = useState([])
   const [porcentajeAvance, setPorcentajeAvance] = useState([]);
   const user = JSON.parse(localStorage.getItem("user"))

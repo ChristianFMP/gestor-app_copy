@@ -43,7 +43,7 @@ export default function Perfil() {
       // console.log("mostrando user",nombre)
    } else { console.log("no hay user") }
 
-   const url = 'https://testunsaac.herokuapp.com/api/docentes/'
+   const url = 'https://christian-be.onrender.com/api/docentes/'
    const fetchApi = async () => {
       const response = await fetch(url)
       // console.log(response.statusText)

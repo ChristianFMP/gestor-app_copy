@@ -96,7 +96,7 @@ export default function AsignarHorarios() {
   }, [])
 
   const acutalizarCurso = (id_curso, asignado) => {
-    fetch(`https://testunsaac.herokuapp.com/api/cursos/${id_curso}`, {
+    fetch(`https://christian-be.onrender.com/api/cursos/${id_curso}`, {
       method: 'PUT',
       headers: {
         'Content-type': 'application/json'

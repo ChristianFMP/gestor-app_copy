@@ -6,7 +6,7 @@ import { CSVLink, CSVDownload } from 'react-csv';
 const {Anime, stagger} = ReactAnime
 
 
-const uri = 'https://testunsaac.herokuapp.com/api/matriculas/';
+const uri = 'https://christian-be.onrender.com/api/matriculas/';
 const api = helpHttp();
 
 

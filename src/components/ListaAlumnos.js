@@ -9,7 +9,7 @@ export const ListaAlumnos = ({ docente, curso, handleAsistencia }) => {
   const [asistencias, setAsistencias] = useState({});
 
   let api = helpHttp();
-  let url = `https://testunsaac.herokuapp.com/api/matriculas/mis-cursos/${docente}`;
+  let url = `https://christian-be.onrender.com/api/matriculas/mis-cursos/${docente}`;
 
   useEffect(() => {
     api.get(url)
